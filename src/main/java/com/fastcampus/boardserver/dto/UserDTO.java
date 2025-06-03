@@ -2,6 +2,11 @@ package com.fastcampus.boardserver.dto;
 
 import java.util.Date;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class UserDTO {
   public enum Status {
     DEFAULT, ADMIN, DELETED

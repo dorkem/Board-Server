@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+<!--        카멜케이스 자동매핑-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+<!--        MyBatis는 DB에서 null이나오면 setter호출 안해주기 때문에 해달라고 설정함-->
+        <setting name="callSettersOnNulls" value="true"/>
+    </settings>
+</configuration>
